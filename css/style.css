@@ -47,45 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/*** REMOVE AFTERWARDS ***/
-
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
-
-/*** REMOVE AFTERWARDS ***/
-
-/*** NAVIGATION SECTION ***/
-
-.top-navigation {
-	background-color: #fff;
-}
-
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0;
-	padding: 0px 15px;
-}
-
-.top-navigation > .links {
-	float: right;
-	display: inline-block;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
