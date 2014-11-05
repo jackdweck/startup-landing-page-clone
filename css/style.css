@@ -62,10 +62,20 @@ div {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 
+.top-navigation > .content > .logo {
+	height: 70px;
+}
 
+.top-navigation > .content > .links {
+	float: right;
+}
 
+.top-navigation > .content > .links > li {
+	display: inline-block;
+}
 
 
 
