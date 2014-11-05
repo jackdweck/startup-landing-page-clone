@@ -1,8 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,71 +15,109 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+/* End of Reset */
+/* Start of Custom Styles */
+.content {
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
-
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 970px;
     height: 70px;
+}
+.top-navigation .logo {
+    height: 70px;
+}
+
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.introduction {
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.introduction h1, .introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;	
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    display: block;
     margin: 0 auto;
-    padding: 0px 15px;
+    margin-top: 2.5rem;
+    width: 9.688rem;
+    background-color: #f15a29;
+    font-size: 1.125rem;
+    color: white;
 }
 
-.top-navigation > .content > .logo {
-	height: 70px;
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
 }
-
-.top-navigation > .content > .links {
-	float: right;
-}
-
-.top-navigation > .content > .links > li {
-	display: inline-block;
-}
-
-
-
-
-
 
 
 
