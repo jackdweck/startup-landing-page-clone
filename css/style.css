@@ -165,6 +165,32 @@ ol, ul {
 	font-size: 1.313rem;
 }
 
+.bottom-footer ul {
+	float: left;
+}
+
+.bottom-footer .footer-title {
+	font-weight: 500;
+	padding-bottom: 1rem;
+	color: black;
+}
+
+.bottom-footer ul li {
+	padding-bottom: .7rem;
+	color: #838994;
+	font-weight: 300;
+}
+
+.bottom-footer .footer-list1 ul li {
+	position: left;
+}
+
+.bottom-footer .footer-list2 ul li {
+	position: center;
+}
+
+
+
 
 
 
