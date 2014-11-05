@@ -233,3 +233,43 @@ div {
         width: 60%;
     }
 }
+
+/**
+ * What is Karma
+ */
+
+.explainer {
+	background-image: url('../img/buy-now-bg.jpg');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.explainer h3 {
+	color: #f15a29;
+	font-size: 1.8rem;
+	margin-top: 7.8rem;
+
+}
+
+.explainer p {
+	color: #838994;
+	font-size: 1.25rem;
+	font-weight: 300;
+	padding-top: 2rem;
+	height: 108px;
+	width: 240px;
+}
+
+
+.explainer .big-button {
+	float: left;
+	margin-top: 5rem;
+}
+
+
+
+
+
