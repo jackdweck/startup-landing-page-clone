@@ -255,12 +255,13 @@ div {
 }
 
 .explainer p {
-	color: #838994;
+	color: #4c5058;
 	font-size: 1.25rem;
 	font-weight: 300;
 	padding-top: 2rem;
 	height: 108px;
 	width: 240px;
+	padding-bottom: 2rem;
 }
 
 
